@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    app:layout_anchorGravity="center_vertical"
+    tools:context=".AuthActivity">
+
+    <LinearLayout
+        android:id="@+id/authllv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:layout_width="300sp"
+            android:layout_height="48sp"
+            android:gravity="center"
+            android:layout_marginBottom="16sp"
+            android:hint="@string/email"
+            android:importantForAutofill="no"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:layout_width="300sp"
+            android:layout_height="48sp"
+            android:gravity="center"
+            android:layout_marginTop="16sp"
+            android:hint="@string/password"
+            android:importantForAutofill="no"
+            android:inputType="textPassword" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/authllh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="25sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/authllv">
+
+        <Button
+            android:id="@+id/registerBtn"
+            android:layout_width="125sp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginStart="16sp"
+            android:layout_marginEnd="16sp"
+            android:background="@color/purple_500"
+            android:text="@string/login"/>
+
+        <Button
+            android:id="@+id/loginBtn"
+            android:layout_width="125sp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginStart="16sp"
+            android:layout_marginEnd="16sp"
+            android:background="@color/purple_500"
+            android:text="@string/register"/>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

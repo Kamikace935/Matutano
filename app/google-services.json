@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "640349213814",
+    "project_id": "matutanos",
+    "storage_bucket": "matutanos.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:640349213814:android:773353c1418682a8a6fb57",
+        "android_client_info": {
+          "package_name": "com.example.matutanos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "640349213814-sveebncpv0k9e8rrq8eqtmiv43fbhnhs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7YnN7YbG6u73MjEgUy6FMJef8UDIbbcw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "640349213814-sveebncpv0k9e8rrq8eqtmiv43fbhnhs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
